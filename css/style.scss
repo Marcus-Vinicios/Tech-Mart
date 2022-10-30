@@ -67,6 +67,10 @@
     background-color: $gray-200;
 }
 
+.card:hover{
+    box-shadow: 0px 0px 10px $blue-500;
+}
+
 .footer {
     display: flex;
     justify-content: center;
