@@ -1,0 +1,85 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: $indigo-800;
+}
+
+.logo{
+    display: flex;
+    padding: 12px;
+    align-items: center;
+}
+
+.header h3 {
+    margin-left: 10px;
+    color: azure;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 2vh auto;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.content{
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.content h5{
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-items{
+    background-color: $indigo-700;
+    border-radius: 5px;
+    height: 10vh;
+    color: azure;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    gap: 2vw;
+    border-radius: 5px;
+    flex-flow: row wrap;
+}
+
+.items .card{
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 25vh;
+    background-color: $gray-200;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px $blue-500;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $indigo-800;
+}
+
+.footer p{
+    margin-top: 1.5vh;
+    color: azure;
+    font-size: 18px;
+}
