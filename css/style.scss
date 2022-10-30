@@ -18,6 +18,20 @@
     color: azure;
 }
 
+@media (max-width: 728px) {
+    .header {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: $indigo-800;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+}
+
 .container{
     display: flex;
     flex-flow: column wrap;
