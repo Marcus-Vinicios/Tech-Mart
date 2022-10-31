@@ -1,0 +1,73 @@
+{
+    "Produtos": {
+        "Hardware": [
+            {
+                "id": 1,
+                "nome": "Placa de Vídeo EVGA NVIDIA GeForce RTX 3090 Ti FTW3 Black Gaming",
+                "preco": "R$11.999,99",
+                "imagem": "img/placa-3090-geforce.jpg",
+                "descricao": "Placa de Vídeo EVGA NVIDIA GeForce RTX 3090 Ti FTW3 Black Gaming, 24GB GDDR6X, LHR, iCX3, ARGB LED, DLSS, Ray Tracing - 24G-P5-4981-KR"
+            },
+            {
+                "id": 2,
+                "nome": "Placa de Vídeo Zotac NVIDIA GeForce RTX 3090 Trinity",
+                "preco": "R$9.499,99",
+                "imagem": "img/placa-3090-zotac.jpg",
+                "descricao": "Placa de Vídeo Zotac NVIDIA GeForce RTX 3090 Trinity, 24GB, GDDR6X - ZT-A30900D-10P"
+            },
+            {
+                "id": 3,
+                "nome": "Placa de Vídeo MSI NVIDIA GeForce RTX 2060 Ventus GP OC",
+                "preco": "R$3.058,81",
+                "imagem": "img/placa-2060-ventus.jpg",
+                "descricao": "Placa de Vídeo MSI NVIDIA GeForce RTX 2060 Ventus GP OC, 6GB GDDR6, Ray Tracing - GeForce RTX 2060 VENTUS GP OC"
+            }
+        ],
+        "Perifericos": [
+            {
+                "id": 1,
+                "nome": "Mouse Gamer Redragon Cobra",
+                "preco": "R$ 175,99",
+                "imagem": "mouse-redragon.jpg",
+                "descricao": "Mouse Gamer Redragon Cobra, Chroma RGB, 12400DPI, 7 Botões, Preto - M711 V2"
+            },
+            {
+                "id": 2,
+                "nome": "Teclado Mecânico Gamer Redragon Kumara",
+                "preco": "R$ 249,99",
+                "imagem": "teclado-redragon.jpg",
+                "descricao": "Teclado Mecânico Gamer Redragon Kumara, RGB, Switch Outemu Brown, PT - K552RGB-1 (PT-BROWN)"
+            },
+            {
+                "id": 3,
+                "nome": "Headset Gamer Razer Kraken Ultimate",
+                "preco": "R$ 549,99",
+                "imagem": "headset-razer.jpg",
+                "descricao": "Headset Gamer Razer Kraken Ultimate, Chroma, USB, Som Surround 7.1, Drivers 50mm - RZ04-03180100-R3U1"
+            }
+        ],
+        "Notebooks": [
+            {
+                "id": 1,
+                "nome": "Notebook Gamer Dell Alienware",
+                "preco": "R$10.999,99",
+                "imagem": "",
+                "descricao": "Notebook Gamer Dell Alienware m15 R6 Intel Core i7-11800H, GeForce RTX 3070, 16GB RAM, SSD 1TB, 15.6 FHD 165Hz, Win 11, Preto - AW15-i1100-A30P"
+            },
+            {
+                "id": 2,
+                "nome": "Notebook Gamer Acer Nitro 5",
+                "preco": "R$5.299,99",
+                "imagem": "",
+                "descricao": "Notebook Gamer Acer Nitro 5 AMD Ryzen 7-4800H, GeForce GTX 1650, 8GB RAM, SSD 512GB, 15.6' Full HD IPS 144Hz, Win11 - AN515-44-R4KA"
+            },
+            {
+                "id": 3,
+                "nome": "Notebook Gamer Lenovo IdeaPad Gaming 3i",
+                "preco": "R$3.849,99",
+                "imagem": "",
+                "descricao": "Notebook Gamer Lenovo IdeaPad Gaming 3i Intel Core i5-10300H, GeForce GTX 1650, 8GB RAM, SSD 256GB, Tela 15.6 FHD, Linux, Azul - 82CGS00100"
+            }
+        ]
+    }
+}

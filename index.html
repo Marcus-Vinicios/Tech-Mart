@@ -17,6 +17,57 @@
 <body>
     <div class="header">
         <div class="logo">
+            <div class="navbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span>
+                        <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="https://www.w3.org/2000/svg"
+                            class="IconSandwich" data-testid="drawerButton">
+                            <path
+                                d="M0.75 0.5H29.25V3.66667H0.75V0.5ZM0.75 8.41667H29.25V11.5833H0.75V8.41667ZM0.75 16.3333H29.25V19.5H0.75V16.3333Z"
+                                fill="#fff"></path>
+                        </svg>
+                    </span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <span>
+                            <img src="img/logo.png">
+                        </span>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tech-Mart</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <span>
                 <a href="index.html">
                     <img src="img/logo.png">
@@ -25,14 +76,11 @@
             <h3>Tech-Mart</h3>
         </div>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <div class="navbar-collapse" id="navbarSupportedContent">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-primary" type="submit">Search</button>
-                    </form>
-                </div>
-
+            <div class="navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
             </div>
         </nav>
     </div>
@@ -43,9 +91,6 @@
                 <div class="card">item 1</div>
                 <div class="card">item 2</div>
                 <div class="card">item 3</div>
-                <div class="card">item 4</div>
-                <div class="card">item 5</div>
-                <div class="card">item 6</div>
             </div>
         </div>
         <div class="content">
@@ -54,9 +99,6 @@
                 <div class="card">item 1</div>
                 <div class="card">item 2</div>
                 <div class="card">item 3</div>
-                <div class="card">item 4</div>
-                <div class="card">item 5</div>
-                <div class="card">item 6</div>
             </div>
         </div>
         <div class="content">
@@ -65,9 +107,6 @@
                 <div class="card">item 1</div>
                 <div class="card">item 2</div>
                 <div class="card">item 3</div>
-                <div class="card">item 4</div>
-                <div class="card">item 5</div>
-                <div class="card">item 6</div>
             </div>
         </div>
     </div>

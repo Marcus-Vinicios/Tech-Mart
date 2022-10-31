@@ -2,15 +2,15 @@
 
 .header {
     display: flex;
-    padding: 10px;
     align-items: center;
+    padding: 10px;
     justify-content: space-between;
     background-color: $indigo-800;
 }
 
 .logo {
     display: flex;
-    padding: 12px;
+    padding: 5px;
     align-items: center;
 }
 
@@ -97,5 +97,5 @@
 .footer p {
     margin-top: 1.5vh;
     color: azure;
-    font-size: 18px;
+    font-size: 2.5vh;
 }
