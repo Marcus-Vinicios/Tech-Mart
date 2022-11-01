@@ -10779,24 +10779,22 @@ textarea.form-control-lg {
   background-color: #290661;
   color: azure;
 }
+.header .head {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 5px;
+}
+.header .logo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 5px;
+}
 
 .offcanvas-header {
   color: azure;
   background-color: #290661;
-}
-
-.head {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  gap: 5px;
-}
-
-.logo {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  gap: 5px;
 }
 
 .container {
@@ -10813,14 +10811,12 @@ textarea.form-control-lg {
   border-radius: 5px;
   box-shadow: 2px 2px 8px black;
 }
-
 .content h5, .content .h5 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.header-items {
+.content .header-items {
   background-color: #3d0a91;
   border-radius: 5px 5px 0px 0px;
   height: 10vh;
@@ -10830,16 +10826,34 @@ textarea.form-control-lg {
 .items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   margin: auto;
   padding: 15px;
   gap: 2vw;
   border-radius: 5px;
   flex-flow: row wrap;
 }
-
-.card:hover {
+.items .card {
+  display: flex;
+  width: 18rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(127, 127, 127);
+}
+.items .card-body {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+.items .card:hover {
   box-shadow: 0px 0px 10px #0d6efd;
+}
+.items .card-footer {
+  color: azure;
+  font-size: 2.5vh;
+  text-align: center;
+  background-color: #3d0a91;
 }
 
 .footer {
@@ -10848,7 +10862,6 @@ textarea.form-control-lg {
   align-items: center;
   background-color: #290661;
 }
-
 .footer p {
   margin-top: 1.5vh;
   color: azure;
@@ -10862,6 +10875,9 @@ textarea.form-control-lg {
     justify-content: center;
     align-items: stretch;
     background-color: #290661;
+  }
+  .card .card-footer {
+    font-size: 2vh;
   }
   .footer p {
     margin-top: 1.5vh;

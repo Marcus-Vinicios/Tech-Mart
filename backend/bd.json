@@ -3,23 +3,23 @@
         "Hardware": [
             {
                 "id": 1,
+                "imagem": "img/placa-3090-geforce.jpg",
                 "nome": "Placa de Vídeo EVGA NVIDIA GeForce RTX 3090 Ti FTW3 Black Gaming",
                 "preco": "R$11.999,99",
-                "imagem": "img/placa-3090-geforce.jpg",
                 "descricao": "Placa de Vídeo EVGA NVIDIA GeForce RTX 3090 Ti FTW3 Black Gaming, 24GB GDDR6X, LHR, iCX3, ARGB LED, DLSS, Ray Tracing - 24G-P5-4981-KR"
             },
             {
                 "id": 2,
+                "imagem": "img/placa-3090-zotac.jpg",
                 "nome": "Placa de Vídeo Zotac NVIDIA GeForce RTX 3090 Trinity",
                 "preco": "R$9.499,99",
-                "imagem": "img/placa-3090-zotac.jpg",
                 "descricao": "Placa de Vídeo Zotac NVIDIA GeForce RTX 3090 Trinity, 24GB, GDDR6X - ZT-A30900D-10P"
             },
             {
                 "id": 3,
+                "imagem": "img/placa-2060-ventus.jpg",
                 "nome": "Placa de Vídeo MSI NVIDIA GeForce RTX 2060 Ventus GP OC",
                 "preco": "R$3.058,81",
-                "imagem": "img/placa-2060-ventus.jpg",
                 "descricao": "Placa de Vídeo MSI NVIDIA GeForce RTX 2060 Ventus GP OC, 6GB GDDR6, Ray Tracing - GeForce RTX 2060 VENTUS GP OC"
             }
         ],

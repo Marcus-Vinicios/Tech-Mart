@@ -7,26 +7,29 @@
     justify-content: space-between;
     background-color: $indigo-800;
     color: azure;
+
+    .head {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .logo {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        gap: 5px;
+    }
+
 }
 
-.offcanvas-header{
+.offcanvas-header {
     color: azure;
     background-color: $indigo-800;
 }
 
-.head {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    gap: 5px;
-}
 
-.logo {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    gap: 5px;
-}
 
 .container {
     display: flex;
@@ -41,48 +44,72 @@
 .content {
     border-radius: 5px;
     box-shadow: 2px 2px 8px black;
-}
 
-.content h5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    h5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.header-items {
-    background-color: $indigo-700;
-    border-radius: 5px 5px 0px 0px;
-    height: 10vh;
-    color: azure;
+    .header-items {
+        background-color: $indigo-700;
+        border-radius: 5px 5px 0px 0px;
+        height: 10vh;
+        color: azure;
+    }
 }
 
 .items {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin: auto;
     padding: 15px;
     gap: 2vw;
     border-radius: 5px;
     flex-flow: row wrap;
+
+    .card {
+        display: flex;
+        width: 18rem;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgb(127, 127, 127);
+    }
+
+    .card-body{
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .card:hover {
+        box-shadow: 0px 0px 10px $blue-500;
+    }
+
+    .card-footer {
+        color: azure;
+        font-size: 2.5vh;
+        text-align: center;
+        background-color: $indigo-700;
+    }
 }
 
-.card:hover {
-    box-shadow: 0px 0px 10px $blue-500;
-}
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: $indigo-800;
+
+    p {
+        margin-top: 1.5vh;
+        color: azure;
+        font-size: 2.5vh;
+    }
 }
 
-.footer p {
-    margin-top: 1.5vh;
-    color: azure;
-    font-size: 2.5vh;
-}
 @media (max-width: 728px) {
     .header {
         display: flex;
@@ -91,6 +118,11 @@
         align-items: stretch;
         background-color: $indigo-800;
     }
+
+    .card .card-footer {
+        font-size: 2vh;
+    }
+
     .footer p {
         margin-top: 1.5vh;
         color: azure;
