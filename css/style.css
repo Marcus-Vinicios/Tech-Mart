@@ -10789,7 +10789,9 @@ textarea.form-control-lg {
   display: flex;
   flex-flow: row;
   align-items: center;
+  color: azure;
   gap: 5px;
+  text-decoration: none;
 }
 
 .offcanvas-header {
@@ -10875,6 +10877,14 @@ textarea.form-control-lg {
     justify-content: center;
     align-items: stretch;
     background-color: #290661;
+    gap: 10px;
+  }
+  .header .head {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
   }
   .card .card-footer {
     font-size: 2vh;
