@@ -10799,10 +10799,17 @@ textarea.form-control-lg {
   background-color: #290661;
 }
 
+.menu {
+  color: azure;
+}
 .menu ul {
   display: flex;
   flex-flow: row nowrap;
   gap: 10px;
+  color: azure;
+}
+.menu li path {
+  fill: azure;
 }
 
 .container {
@@ -10910,10 +10917,14 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
-  .menu ul li:hover {
-    color: #9ec5fe;
+  .menu {
+    text-decoration: none;
+    color: azure;
   }
-  .bi-heart-fill:hover path {
+  .menu li:hover path {
+    fill: #9ec5fe;
+  }
+  .actions .bi-heart-fill:hover path {
     fill: red;
   }
 }

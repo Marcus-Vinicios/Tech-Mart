@@ -31,10 +31,19 @@
     background-color: $indigo-800;
 }
 
-.menu ul {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 10px;
+.menu {
+    color: azure;
+
+    ul {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 10px;
+        color: azure;
+    }
+
+    li path {
+        fill: azure;
+    }
 }
 
 .container {
@@ -154,13 +163,18 @@
 }
 
 @media (min-width: 768px) {
-    .menu ul {
-        li:hover {
-            color: $blue-200;
+    .menu {
+        text-decoration: none;
+        color: azure;
+
+        li:hover path {
+            fill: $blue-200;
         }
     }
 
-    .bi-heart-fill:hover path{
-        fill: red;
+    .actions {
+        .bi-heart-fill:hover path {
+            fill: red;
+        }
     }
 }
