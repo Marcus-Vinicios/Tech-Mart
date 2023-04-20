@@ -1,0 +1,52 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "main";
+}
+
+.main {
+    display: flex;
+    grid-area: main;
+    height: calc(100vh - 100px);
+    justify-content: center;
+}
+
+.content {
+    position: relative;
+    height: 100%;
+    width: calc(188vh - 100px);
+    overflow-y: scroll;
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.items {
+    flex-flow: row wrap;
+    justify-content: start;
+
+    .card-footer {
+        justify-content: center;
+        color: azure;
+        font-size: 2.5vh;
+        background-color: $indigo-700;
+    }
+}
+
+@media (max-width: 768px) {
+    .items {
+        flex-flow: row wrap;
+        justify-content: center;
+
+        .card-footer {
+            justify-content: center;
+            color: azure;
+            font-size: 2vh;
+            background-color: $indigo-700;
+        }
+    }
+}

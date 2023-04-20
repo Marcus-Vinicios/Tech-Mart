@@ -1,0 +1,188 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $indigo-800;
+
+    .head {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .logo {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        color: azure;
+        gap: 5px;
+        text-decoration: none;
+    }
+
+}
+
+.offcanvas-header {
+    background-color: $indigo-800;
+}
+
+.offcanvas-body {
+    color: $primary;
+}
+
+.menu {
+    ul {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 10px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 2vh auto;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.content {
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
+
+    h5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-items {
+        background-color: $indigo-700;
+        border-radius: 5px 5px 0px 0px;
+        height: 10vh;
+        color: azure;
+    }
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: auto;
+    padding: 15px;
+    gap: 2vw;
+    border-radius: 5px;
+    flex-flow: row wrap;
+
+    .card {
+        display: flex;
+        width: 18rem;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgb(127, 127, 127);
+    }
+
+    .card-body {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .card-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: azure;
+        font-size: 2.4vh;
+        text-align: center;
+        background-color: $indigo-700;
+    }
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+
+    .btn {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0) !important;
+        border-bottom: 0px;
+        border: none !important;
+        background-color: white !important;
+    }
+
+    .btn:focus {
+        outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+
+    .fill-red {
+        fill: red;
+    }
+
+    .fill-black {
+        fill: black;
+    }
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $indigo-800;
+    color: azure;
+
+    p {
+        margin-top: 1.5vh;
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: stretch;
+        background-color: $indigo-800;
+        gap: 10px;
+
+        .head {
+            display: flex;
+            flex-flow: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            gap: 5px;
+        }
+    }
+
+    .items {
+        .card-footer {
+            font-size: 2vh;
+        }
+    }
+
+    .footer p {
+        margin-top: 1.5vh;
+        color: azure;
+        font-size: 2vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu {
+        li:hover path {
+            fill: $blue-200;
+        }
+    }
+}
