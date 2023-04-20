@@ -9,5 +9,3 @@ Tecnologias utilizadas:
   <li>JavaScript</li>
   <li>Bootstrap</li>
 </ul>
-
-https://marcus-vinicios.github.io/Tech-Mart/
