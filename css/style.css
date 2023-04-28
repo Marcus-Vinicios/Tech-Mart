@@ -10746,7 +10746,7 @@ textarea.form-control-lg {
 }
 .header {
   display: flex;
-  padding: 10px;
+  padding: 10px 15px 10px 15px;
   align-items: center;
   justify-content: space-between;
   background-color: #290661;
