@@ -5,6 +5,9 @@
     "json-server": "^0.17.1"
   },
   "scripts": {
-    "start": "json-server --watch bd.json --port 3001"
+    "start": "nodemon index localhost 3000"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
